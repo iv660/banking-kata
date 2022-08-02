@@ -1,4 +1,4 @@
-export type Operation = {
-  amount: number
-  timestamp: number
+export interface Operation {
+  amount: number;
+  timestamp: number;
 };
