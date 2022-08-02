@@ -38,6 +38,8 @@ node_modules
 
 .idea
 .vscode
+.lh
+.history
 .env
 
 # tokens
