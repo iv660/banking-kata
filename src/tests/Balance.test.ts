@@ -32,8 +32,8 @@ describe("Balance of operations", () => {
   });
 
   it('should calculate operations balance', () => {
-    // const collection = new OperationsCollection();
+    const balance = new Balance();
 
-    // collection.add({amount: 1, timestamp: });
+    balance.add({amount: 1, timestamp: 99999990});
   });
 });
