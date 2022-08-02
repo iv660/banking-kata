@@ -1,14 +1,19 @@
-# TypeScript Jest boilerplate
+# Banking Kata
 
-This boilerplate uses TypeScript and Jest as testing framework.
-Test files should are picked based on their name, here's a few examples that will get picked up by Jest:
+## Your Task
+Your bank is tired of its mainframe COBOL accounting software and they hired both of you for a greenfield project in - what a happy coincidence
 
-- `MyClass.test.ts`
-- `MyJavaScriptModule.test.js`
-- `MyComponent.test.tsx`
-- `SubFolder/MyClass.test.ts`
+your favorite programming language!
+Your task is to show them that your TDD-fu and your new-age programming language can cope with good ole’ COBOL!
 
-You can customize the regexp and jest configuration by editing the `package.json` file.
+## Requirements
+Write a class Account that offers the following methods void deposit(int) void withdraw(int) String printStatement()
+
+An example statement would be:
+
+    Date        Amount  Balance
+    24.12.2015   +500      500
+    23.8.2016    -100      400
 
 ## Installing dependencies
 
